@@ -4,5 +4,10 @@
  "title": "Literature-Meets-Data-A-Synergistic-Approach-to-Hypothesis-G",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:08:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7580de64-96b1-4bdd-814a-86e4ff477660.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7580de64-96b1-4bdd-814a-86e4ff477660.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:24:17",
+  "chunks": 1
+ }
 }

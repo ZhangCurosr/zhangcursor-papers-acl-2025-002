@@ -4,5 +4,32 @@
  "title": "LongDocURL-a-Comprehensive-Multimodal-Long-Document-Benchmar",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:57:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/697e3332-b8d6-45ad-83bf-5084d22962fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/697e3332-b8d6-45ad-83bf-5084d22962fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:24:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长文档理解",
+    "多模态基准",
+    "视觉语言模型",
+    "跨元素定位",
+    "文档QA"
+   ],
+   "field": "多模态文档理解",
+   "innovations": [
+    "提出包含理解/推理/定位三类任务的20子任务长文档基准LongDocURL",
+    "设计半自动化构建管线生成2,325个高质量QA对覆盖33,000+页文档",
+    "改进列表答案软评分规则并系统评测26种模型配置揭示能力差距"
+   ],
+   "benchmarks": [
+    "LongDocURL",
+    "MMLongBench-Doc",
+    "DocVQA",
+    "MP-DocVQA",
+    "DUDE"
+   ]
+  }
+ }
 }

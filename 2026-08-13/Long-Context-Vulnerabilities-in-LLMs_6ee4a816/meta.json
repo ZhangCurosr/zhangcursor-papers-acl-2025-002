@@ -4,5 +4,33 @@
  "title": "Long-Context-Vulnerabilities-in-LLMs",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:00:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2ffacc32-43b3-40d6-905b-99c855ac8343.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2ffacc32-43b3-40d6-905b-99c855ac8343.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:23:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Many-Shot Jailbreaking",
+    "Long-Context Safety",
+    "LLM Vulnerability",
+    "In-Context Learning",
+    "Model Alignment",
+    "Adversarial Attack"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "发现上下文长度是MSJ攻击成功的主因而非内容有害性",
+    "提出Fake Data Attack和Shot Repetition Attack等高效攻击方法",
+    "揭示SFT/RLHF对齐训练可能增加模型对Safe内容的脆弱性"
+   ],
+   "benchmarks": [
+    "Harmful-512",
+    "Safe-512",
+    "Fake-512",
+    "Harmful-Same-512",
+    "Safe-Same-512"
+   ]
+  }
+ }
 }

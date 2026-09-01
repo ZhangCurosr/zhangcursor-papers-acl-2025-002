@@ -4,5 +4,33 @@
  "title": "Less-for-More-Enhanced-Feedback-aligned-Mixed-LLMs-for-Molec",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 06:58:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c13c4564-d3ff-42f4-8ec8-07d0f10d4a9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c13c4564-d3ff-42f4-8ec8-07d0f10d4a9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:23:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型合并",
+    "对齐微调",
+    "分子语言模型",
+    "CPO",
+    "NLI评估",
+    "跨模态生成",
+    "少样本学习"
+   ],
+   "field": "科学语言模型与分子生成",
+   "innovations": [
+    "提出模型合并与对齐微调在跨模态分子任务中的协同机制，仅用10%数据即超越全量训练基线",
+    "CPO在少样本跨模态对齐中展现出最优的泛化-结构化平衡能力，DPO/KTO失效",
+    "原子级交叉NLI评估方法，有效捕捉细粒度事实一致性与覆盖率差异"
+   ],
+   "benchmarks": [
+    "L+M-24",
+    "Molitron",
+    "Chem-LLM",
+    "TxtChem-T5"
+   ]
+  }
+ }
 }

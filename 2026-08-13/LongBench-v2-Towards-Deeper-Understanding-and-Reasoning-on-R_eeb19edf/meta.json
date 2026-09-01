@@ -4,5 +4,32 @@
  "title": "LongBench-v2-Towards-Deeper-Understanding-and-Reasoning-on-R",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 06:58:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73c280c7-56fc-4253-89a0-df88e0c12f86.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73c280c7-56fc-4253-89a0-df88e0c12f86.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:24:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文理解",
+    "推理时计算",
+    "大语言模型评测",
+    "多任务基准",
+    "思维链",
+    "检索增强生成"
+   ],
+   "field": "长上下文大模型评测",
+   "innovations": [
+    "提出聚焦深度推理而非提取式检索的长上下文多任务基准LongBench v2",
+    "建立人机可比的高质量题目审核机制（自动化+人工双重审查）",
+    "系统验证推理时计算扩展对长上下文任务的增益效果"
+   ],
+   "benchmarks": [
+    "LongBench v2",
+    "ZeroSCROLLS",
+    "RULER",
+    "GPQA-Reborn"
+   ]
+  }
+ }
 }

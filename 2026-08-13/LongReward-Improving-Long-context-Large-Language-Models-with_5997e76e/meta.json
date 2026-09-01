@@ -4,5 +4,34 @@
  "title": "LongReward-Improving-Long-context-Large-Language-Models-with",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 06:58:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/de63232c-f05f-4109-bf46-097d59ab91c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/de63232c-f05f-4109-bf46-097d59ab91c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:24:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文",
+    "大语言模型",
+    "AI反馈",
+    "DPO",
+    "reward模型",
+    "事实一致性",
+    "多维度评估"
+   ],
+   "field": "长上下文大语言模型对齐",
+   "innovations": [
+    "提出首个面向长上下文的多维度 LLM-as-Judge 奖励方法 LongReward，从有用性/逻辑性/忠实度/完整性四维度给回答打分",
+    "将 LongReward 与 DPO 结合，通过最高/最低 reward 构造偏好对并进行带 CE 正则的离线偏好优化",
+    "证明长上下文 DPO 可与短上下文 DPO 混合训练而不互相损害，并带来跨尺度能力泛化"
+   ],
+   "benchmarks": [
+    "LongBench-Chat",
+    "LongBench",
+    "MT-Bench",
+    "AlpacaEval2",
+    "FactScore"
+   ]
+  }
+ }
 }
