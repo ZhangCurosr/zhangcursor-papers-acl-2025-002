@@ -4,5 +4,31 @@
  "title": "Real-time-Factuality-Assessment-from-Adversarial-Feedback",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-11-04 20:51:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5963a07d-52bd-46b6-a3cf-2a4be649454f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5963a07d-52bd-46b6-a3cf-2a4be649454f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:00:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fake news detection",
+    "adversarial generation",
+    "RAG",
+    "factuality assessment",
+    "temporal distribution shift",
+    "LLM evaluation"
+   ],
+   "field": "虚假信息检测与大语言模型评估",
+   "innovations": [
+    "提出RAG检测器反馈驱动的对抗性迭代新闻生成流水线，6轮迭代使GPT-4o的AUC-ROC下降17.5个百分点",
+    "系统分析PolitiFact和Snopes数据集的时间演化趋势，揭示传统事实核查数据源的评估退化与污染问题"
+   ],
+   "benchmarks": [
+    "LIAR",
+    "PolitiFact",
+    "Snopes",
+    "NBC News 2024"
+   ]
+  }
+ }
 }

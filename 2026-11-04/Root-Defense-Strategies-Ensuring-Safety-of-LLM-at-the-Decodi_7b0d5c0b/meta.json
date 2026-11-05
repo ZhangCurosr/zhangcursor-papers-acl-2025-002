@@ -4,5 +4,33 @@
  "title": "Root-Defense-Strategies-Ensuring-Safety-of-LLM-at-the-Decodi",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-11-04 20:54:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3dc8480f-4c75-44ca-bcb5-ad1b50e0a28f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3dc8480f-4c75-44ca-bcb5-ad1b50e0a28f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:01:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Safety",
+    "Jailbreak Defense",
+    "Decoding-level Defense",
+    "Speculative Decoding",
+    "Safe Generation"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "提出了解码层面的分步安全防御框架 RDS，实时修正有害 token",
+    "利用推测解码（EAGLE_head）加速安全 token 的预测与评估过程，兼顾安全与效率",
+    "发现并量化了 LLM 在解码过程中对 token 危害性的判别能力，用于指导防御"
+   ],
+   "benchmarks": [
+    "HEx-PHI",
+    "AdvBench",
+    "MaliciousInstruct",
+    "Held-out",
+    "Xstest",
+    "Just-Eval"
+   ]
+  }
+ }
 }

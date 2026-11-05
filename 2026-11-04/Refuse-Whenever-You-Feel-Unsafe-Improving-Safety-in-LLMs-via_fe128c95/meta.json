@@ -4,5 +4,10 @@
  "title": "Refuse-Whenever-You-Feel-Unsafe-Improving-Safety-in-LLMs-via",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-11-04 21:25:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/351e280d-26b6-40e5-85bd-e0a42a06f47a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/351e280d-26b6-40e5-85bd-e0a42a06f47a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:00:43",
+  "chunks": 1
+ }
 }

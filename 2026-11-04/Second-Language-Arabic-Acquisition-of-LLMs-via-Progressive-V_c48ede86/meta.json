@@ -4,5 +4,36 @@
  "title": "Second-Language-Arabic-Acquisition-of-LLMs-via-Progressive-V",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-11-04 21:18:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/49893b79-ab4a-4320-bff0-ee68f17c69e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/49893b79-ab4a-4320-bff0-ee68f17c69e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:01:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "阿拉伯语大模型",
+    "词汇扩展",
+    "渐进式训练",
+    "低资源语言适配",
+    "第二语言习得",
+    "指令微调"
+   ],
+   "field": "多语言大语言模型",
+   "innovations": [
+    "提出渐进式词汇扩展（PVE）方法，受人类二语习得启发，在16个阶段动态扩展阿拉伯语子词词汇表",
+    "设计指数级扩展策略替代均匀扩展，实现更稳定的训练动力学和更高的解码效率（3倍加速）",
+    "开发ALAN合成数据生成框架，构建127主题结构化知识图谱驱动的高质量指令微调数据"
+   ],
+   "benchmarks": [
+    "ArabicMMLU",
+    "Arabic-trans MMLU",
+    "EXAMS",
+    "ACVA-all/clean",
+    "BoolQ",
+    "ARC-Challenge",
+    "RACE",
+    "English MMLU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Modeling-Uncertainty-in-Composed-Image-Retrieval-via-Probabi",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-11-04 20:57:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/985cbd7e-7717-48c1-8b18-a14f04f7141e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/985cbd7e-7717-48c1-8b18-a14f04f7141e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:57:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Composed Image Retrieval",
+    "Probabilistic Embedding",
+    "Uncertainty Quantification",
+    "Multimodal Retrieval",
+    "Gaussian Embedding"
+   ],
+   "field": "多模态检索",
+   "innovations": [
+    "将CIR查询与候选图像表示为潜空间Gaussian分布，方差显式建模实例级与特征级不确定性",
+    "设计含Wasserstein-2与不确定性乘积惩罚的概率距离度量，实现不确定性感知匹配",
+    "提出邻域偏差损失，通过k-NN特征std自监督估计各维度语义歧义"
+   ],
+   "benchmarks": [
+    "Fashion-IQ",
+    "CIRR"
+   ]
+  }
+ }
 }

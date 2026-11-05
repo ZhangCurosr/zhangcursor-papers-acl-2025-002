@@ -4,5 +4,30 @@
  "title": "Model-Extrapolation-Expedites-Alignment",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-11-04 21:34:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ee8b9418-5920-4fbe-81f1-1f1e1de96885.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ee8b9418-5920-4fbe-81f1-1f1e1de96885.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:57:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Alignment",
+    "Model Extrapolation",
+    "DPO",
+    "Efficient Training",
+    "RLHF",
+    "Model Interpolation"
+   ],
+   "field": "大语言模型对齐与高效训练",
+   "innovations": [
+    "基于一阶近似放大部分训练模型的参数偏移以加速LLM对齐，无需额外训练开销",
+    "将模型插值权重范围从[0,1]扩展至(1,+∞)，在减少20%训练步数下超越全量训练模型"
+   ],
+   "benchmarks": [
+    "AlpacaEval 2.0",
+    "MT-Bench",
+    "UltraFeedback"
+   ]
+  }
+ }
 }

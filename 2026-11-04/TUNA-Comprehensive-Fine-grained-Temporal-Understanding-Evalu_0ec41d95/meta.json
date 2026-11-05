@@ -4,5 +4,31 @@
  "title": "TUNA-Comprehensive-Fine-grained-Temporal-Understanding-Evalu",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-11-04 21:09:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/19b23dbc-462a-4547-be5a-73d67b2de746.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/19b23dbc-462a-4547-be5a-73d67b2de746.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:03:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video understanding",
+    "temporal understanding",
+    "multimodal benchmark",
+    "video captioning",
+    "video QA",
+    "fine-grained evaluation"
+   ],
+   "field": "视频理解与多模态评测",
+   "innovations": [
+    "提出事件级可解释视频描述评测TUNA-CAP，支持四类时序要素与加权指标",
+    "构建覆盖镜头/场景/动作/属性四维度的细粒度时序问答基准TUNA-MCQ",
+    "提出基于模型缺陷自动提取易错点的QA生成管线与时序必要性过滤机制"
+   ],
+   "benchmarks": [
+    "TUNA-1K",
+    "TUNA-CAP",
+    "TUNA-MCQ"
+   ]
+  }
+ }
 }

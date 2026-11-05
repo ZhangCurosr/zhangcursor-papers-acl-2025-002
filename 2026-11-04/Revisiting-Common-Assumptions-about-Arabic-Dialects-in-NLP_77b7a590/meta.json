@@ -4,5 +4,10 @@
  "title": "Revisiting-Common-Assumptions-about-Arabic-Dialects-in-NLP",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-11-04 21:19:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d611cf8d-68c7-4cca-9d40-bbd436172939.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d611cf8d-68c7-4cca-9d40-bbd436172939.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:01:34",
+  "chunks": 1
+ }
 }

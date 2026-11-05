@@ -4,5 +4,32 @@
  "title": "Steering-into-New-Embedding-Spaces-Analyzing-Cross-Lingual-A",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-11-04 21:07:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c9cd4048-ae85-4d13-9753-8607562c7743.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c9cd4048-ae85-4d13-9753-8607562c7743.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:02:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言对齐",
+    "模型干预",
+    "多语言大语言模型",
+    "嵌入空间",
+    "finding experts",
+    "跨语言检索"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "首次系统分析finding experts干预对mLLM跨语言对齐的表征机制",
+    "证明单一语言专家干预可全局提升所有语言的跨语言检索性能",
+    "建立嵌入空间余弦距离变化与下游检索准确率的强相关性证据"
+   ],
+   "benchmarks": [
+    "Flores200",
+    "PAWS-X",
+    "Tatoeba",
+    "BUCC-18"
+   ]
+  }
+ }
 }

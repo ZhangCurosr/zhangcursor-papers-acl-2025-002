@@ -4,5 +4,29 @@
  "title": "Re-ranking-Using-Large-Language-Models-for-Mitigating-Exposu",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-11-04 21:23:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64fbcad8-6eea-4a46-97ed-f514ace1edcf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64fbcad8-6eea-4a46-97ed-f514ace1edcf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:00:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "re-ranking",
+    "large language models",
+    "harmful content mitigation",
+    "in-context learning",
+    "recommendation systems"
+   ],
+   "field": "社交内容安全与推荐系统",
+   "innovations": [
+    "提出基于LLM的零样本/少样本成对重排序方法减少有害内容暴露",
+    "设计PPk和EWN两个序列级有害内容暴露评估指标"
+   ],
+   "benchmarks": [
+    "YouTube Harmful Videos Dataset",
+    "Jigsaw Toxicity Dataset",
+    "D-Lab Hate Speech Dataset"
+   ]
+  }
+ }
 }

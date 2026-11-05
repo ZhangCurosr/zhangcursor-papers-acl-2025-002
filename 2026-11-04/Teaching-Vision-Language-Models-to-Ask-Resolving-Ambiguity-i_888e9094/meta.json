@@ -4,5 +4,33 @@
  "title": "Teaching-Vision-Language-Models-to-Ask-Resolving-Ambiguity-i",
  "token": "sk-L0ZhgdlAv...",
  "created_at": "2026-11-04 21:08:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/86f90382-bdff-46b8-a22a-048098b1d8b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/86f90382-bdff-46b8-a22a-048098b1d8b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:04:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉问答",
+    "歧义澄清",
+    "交互式VQA",
+    "视觉语言模型",
+    "DPO",
+    "多模态对话"
+   ],
+   "field": "多模态交互与歧义消解",
+   "innovations": [
+    "提出ClearVQA基准首次评测VLM通过交互式澄清解决视觉歧义的能力",
+    "设计自动化歧义-澄清问答对构建流水线覆盖三类常见歧义",
+    "基于SFT+DPO两阶段训练使开源VLM学会主动提问澄清而非直接回答"
+   ],
+   "benchmarks": [
+    "ClearVQA",
+    "VQAv2",
+    "OK-VQA",
+    "A-OKVQA",
+    "ST-VQA"
+   ]
+  }
+ }
 }

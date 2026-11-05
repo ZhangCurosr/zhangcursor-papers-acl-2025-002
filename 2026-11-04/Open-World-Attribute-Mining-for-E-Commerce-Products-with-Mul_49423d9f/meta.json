@@ -4,5 +4,29 @@
  "title": "Open-World-Attribute-Mining-for-E-Commerce-Products-with-Mul",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-11-04 21:03:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/467b65c2-0a0a-4f44-9e40-8d02ca75f92f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/467b65c2-0a0a-4f44-9e40-8d02ca75f92f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:58:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放世界属性挖掘",
+    "多模态大语言模型",
+    "思维链推理",
+    "指令微调",
+    "电商分析"
+   ],
+   "field": "多模态信息抽取",
+   "innovations": [
+    "首次将多模态大模型用于开放世界电商属性挖掘",
+    "提出5步思维链推理与自纠正机制",
+    "构建AGTD和CTTD双阶段微调数据与三阶段推理框架"
+   ],
+   "benchmarks": [
+    "WOAM",
+    "OAMine"
+   ]
+  }
+ }
 }

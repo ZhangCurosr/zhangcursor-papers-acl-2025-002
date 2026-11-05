@@ -4,5 +4,31 @@
  "title": "Retrieve-to-Explain-Evidence-driven-Predictions-for-Explaina",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-11-04 21:24:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5c1a24c7-0ac3-4239-aa2f-af770323a697.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5c1a24c7-0ac3-4239-aa2f-af770323a697.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:01:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释AI",
+    "药物靶点识别",
+    "检索增强生成",
+    "Shapley值",
+    " biomedical NLP",
+    "假设生成"
+   ],
+   "field": "可解释人工智能",
+   "innovations": [
+    "基于检索的证据驱动预测框架实现实时可解释性",
+    "将非文本数据模板化为自然语言实现多模态融合",
+    "证据级Shapley值归因与人工审核闭环优化"
+   ],
+   "benchmarks": [
+    "Clinical Trial Outcomes",
+    "Gene Description Facts",
+    "Held-out Biomedical Literature"
+   ]
+  }
+ }
 }

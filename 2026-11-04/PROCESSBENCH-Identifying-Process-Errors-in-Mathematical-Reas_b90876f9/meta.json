@@ -4,5 +4,34 @@
  "title": "PROCESSBENCH-Identifying-Process-Errors-in-Mathematical-Reas",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-11-04 21:28:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fabe10dc-daca-4e03-8f55-9aa1e84ead71.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fabe10dc-daca-4e03-8f55-9aa1e84ead71.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:58:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数学推理",
+    "过程错误识别",
+    "Process Reward Model",
+    "Critique Model",
+    "可规模化监督",
+    "benchmark"
+   ],
+   "field": "语言模型推理评估",
+   "innovations": [
+    "提出包含3,400例竞赛级数学题的PROCESSBENCH基准，要求模型定位最早错误步骤",
+    "系统对比PRM与Critic模式在过程错误识别上的能力差异，揭示PRM泛化瓶颈",
+    "发现高难度题目中超过50%正确最终答案的解法仍含过程错误"
+   ],
+   "benchmarks": [
+    "PROCESSBENCH",
+    "GSM8K",
+    "MATH",
+    "OlympiadBench",
+    "Omni-MATH",
+    "PRM800K"
+   ]
+  }
+ }
 }

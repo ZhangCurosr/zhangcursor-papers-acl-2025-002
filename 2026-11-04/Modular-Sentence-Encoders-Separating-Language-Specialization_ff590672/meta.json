@@ -4,5 +4,10 @@
  "title": "Modular-Sentence-Encoders-Separating-Language-Specialization",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-11-04 21:19:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c94cb8df-fc6d-44d7-9450-f28168c13a08.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c94cb8df-fc6d-44d7-9450-f28168c13a08.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:58:17",
+  "chunks": 1
+ }
 }

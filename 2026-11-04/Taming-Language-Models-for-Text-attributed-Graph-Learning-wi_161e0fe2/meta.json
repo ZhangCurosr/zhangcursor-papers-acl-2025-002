@@ -4,5 +4,32 @@
  "title": "Taming-Language-Models-for-Text-attributed-Graph-Learning-wi",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-11-04 21:07:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/28e7fddc-9c7e-429b-be21-6dc4d98f95f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/28e7fddc-9c7e-429b-be21-6dc4d98f95f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:04:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-Attributed Graph",
+    "Large Language Model",
+    "Decoupled Aggregation",
+    "Semantic Retrieval",
+    "Structural Aggregation",
+    "Minhash",
+    "Graph Learning"
+   ],
+   "field": "图表示学习与大语言模型融合",
+   "innovations": [
+    "提出解耦聚合范式，将节点聚合前置为语义与结构双路检索，避免端到端LM-GNN联合训练的高昂开销",
+    "设计基于Minhash的高效多跳Jaccard相似度估计算法，以矩阵广播替代逐节点迭代，实现亚线性时间复杂度的结构召回",
+    "构建加权排名融合机制将检索文本与锚点原文拼接为长上下文输入，仅凭轻量级语言模型即超越全参数GNN基线"
+   ],
+   "benchmarks": [
+    "ACM",
+    "Wikipedia",
+    "Amazon"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Personality-Guided-Code-Generation-Using-Large-Language-Mode",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-11-04 20:58:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e9ce9c03-7c5f-408d-8de1-80a7dc8d1123.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e9ce9c03-7c5f-408d-8de1-80a7dc8d1123.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:59:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Personality-Guided Code Generation",
+    "LLM",
+    "MBTI",
+    "Prompt Engineering",
+    "Chain of Thought",
+    "Software Engineering",
+    "Empirical Evaluation"
+   ],
+   "field": "代码生成与提示工程",
+   "innovations": [
+    "提出基于MBTI的个性引导双阶段代码生成流水线",
+    "在7个LLM和4个数据集上实证证明个性引导显著提升代码通过率",
+    "揭示个性多样性、模型能力与任务难度对效果的影响机制"
+   ],
+   "benchmarks": [
+    "MBPP Sanitized",
+    "MBPP+",
+    "HumanEval+",
+    "APPS"
+   ]
+  }
+ }
 }

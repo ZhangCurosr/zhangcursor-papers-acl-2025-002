@@ -4,5 +4,29 @@
  "title": "RULEARENA-A-Benchmark-for-Rule-Guided-Reasoning-with-LLMs-in",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-11-04 21:06:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/50822f30-16d7-4d14-80a6-f105ae3c3182.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/50822f30-16d7-4d14-80a6-f105ae3c3182.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:59:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "规则指导推理",
+    "大语言模型",
+    "基准评测",
+    "指令遵循",
+    "复杂推理",
+    "真实世界场景"
+   ],
+   "field": "大语言模型评估与推理",
+   "innovations": [
+    "提出RULEARENA基准，首个面向真实世界复杂规则的场景化推理评测",
+    "设计问题级与规则级双维度细粒度评估指标体系，定位模型在规则选择与应用中的失败模式",
+    "系统性诊断LLMs在规则召回、相似规则区分、数学计算三方面的能力缺陷"
+   ],
+   "benchmarks": [
+    "RULEARENA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Smarter-Better-Faster-Longer-A-Modern-Bidirectional-Encoder",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-11-04 20:59:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9670b757-90c4-4717-af25-6c998686575b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9670b757-90c4-4717-af25-6c998686575b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:02:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "encoder-only",
+    "ModernBERT",
+    "RoPE",
+    "长上下文检索",
+    "硬件感知架构",
+    "information retrieval"
+   ],
+   "field": "语言模型编码器架构",
+   "innovations": [
+    "系统集成RoPE/GeGLU/交替注意力/full unpadding的encoder现代化改造",
+    "首次实现encoder的完整模型unpadding与硬件感知Deep&Narrow设计",
+    "原生8192上下文长度并在2T token（含代码）上预训练的Pareto改进"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "BEIR",
+    "MLDR",
+    "CodeSearchNet",
+    "StackQA"
+   ]
+  }
+ }
 }

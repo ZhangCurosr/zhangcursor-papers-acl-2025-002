@@ -4,5 +4,31 @@
  "title": "Rethinking-Repetition-Problems-of-LLMs-in-Code-Generation",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-11-04 21:27:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3384cb7d-ebd9-44be-943f-d4e1dc9bd119.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3384cb7d-ebd9-44be-943f-d4e1dc9bd119.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:00:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码生成",
+    "重复问题",
+    "结构重复",
+    "大语言模型",
+    "解码方法",
+    "语法规则"
+   ],
+   "field": "代码生成与程序合成",
+   "innovations": [
+    "首次形式化定义代码生成中的结构重复问题",
+    "提出基于语法规则的RPG解码方法检测和惩罚重复",
+    "构建CodeRepetEval数据集并提供多场景重复问题评测基准"
+   ],
+   "benchmarks": [
+    "HumanEval",
+    "MBPP",
+    "CodeRepetEval"
+   ]
+  }
+ }
 }

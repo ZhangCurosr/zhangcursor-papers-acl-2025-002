@@ -4,5 +4,32 @@
  "title": "Statistical-Deficiency-for-Task-Inclusion-Estimation",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-11-04 21:09:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0c9bb340-b559-4159-a589-e3f434b61260.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0c9bb340-b559-4159-a589-e3f434b61260.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:03:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "任务包含",
+    "统计缺陷",
+    "信息充分性",
+    "NLP管线",
+    "多任务学习",
+    "信息论",
+    "任务关系",
+    "LoRA"
+   ],
+   "field": "自然语言处理·任务建模与信息论",
+   "innovations": [
+    "基于Le Cam统计缺陷理论定义任务包含关系，建立非对称任务偏序的理论框架",
+    "提出信息充分性(IS)作为统计缺陷的可计算代理，用于从嵌入分布估计任务包含强度",
+    "通过IS成功在OntoNotes数据集上重建SYN→SRL→NER→COR经典NLP管线的层次包含结构"
+   ],
+   "benchmarks": [
+    "OntoNotes v5.0",
+    "HMM合成数据"
+   ]
+  }
+ }
 }
