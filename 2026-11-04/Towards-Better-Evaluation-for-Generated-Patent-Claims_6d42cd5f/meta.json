@@ -4,5 +4,32 @@
  "title": "Towards-Better-Evaluation-for-Generated-Patent-Claims",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-11-04 21:27:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/aa2b5525-88c1-4dc5-8091-f87f9dd892f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/aa2b5525-88c1-4dc5-8091-f87f9dd892f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:41:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "专利权利要求评估",
+    "自动文本评测",
+    "对比学习",
+    "Longformer",
+    "LLM-as-judge",
+    "Patent-CE"
+   ],
+   "field": "法律/专利领域的自然语言处理评测",
+   "innovations": [
+    "提出首个专利权利要求五维专家对比基准 Patent-CE（1,228 条）",
+    "设计专用五维 PatClaimEval 对比学习评估方法并在全部维度上超越既有自动指标",
+    "发现并解释专利场景下 N-gram 指标优于 embedding 相似度的反常现象"
+   ],
+   "benchmarks": [
+    "Patent-CE",
+    "G-Eval-4",
+    "UniEval",
+    "AlignScore"
+   ]
+  }
+ }
 }

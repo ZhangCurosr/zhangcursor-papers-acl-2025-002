@@ -4,5 +4,35 @@
  "title": "Prompt-Candidates-then-Distill-A-Teacher-Student-Framework-f",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-11-04 21:00:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64c332bf-dc01-4449-884a-ebb32349363a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64c332bf-dc01-4449-884a-ebb32349363a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:41:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM 数据标注",
+    "候选标注",
+    "知识蒸馏",
+    "小语言模型",
+    "模糊厌恶",
+    "文本分类",
+    "噪声鲁棒性"
+   ],
+   "field": "LLM 驱动的数据标注",
+   "innovations": [
+    "提出基于模糊厌恶的候选标注范式（CA_add/CA_all），显著提升正确标签覆盖率",
+    "设计分布精炼（DR）机制动态重归一化蒸馏目标，使正确标签从候选中浮现",
+    "理论证明从 top-k 候选蒸馏比对 top-1 单标签蒸馏具有更强的噪声容忍性"
+   ],
+   "benchmarks": [
+    "TREC",
+    "Medical Abstract (MA)",
+    "DBpedia",
+    "AGNews",
+    "RCT",
+    "Banking"
+   ]
+  }
+ }
 }

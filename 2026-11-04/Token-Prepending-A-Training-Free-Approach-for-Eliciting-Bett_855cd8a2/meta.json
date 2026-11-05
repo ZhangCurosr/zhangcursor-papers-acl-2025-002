@@ -4,5 +4,30 @@
  "title": "Token-Prepending-A-Training-Free-Approach-for-Eliciting-Bett",
  "token": "sk-4xOJ8RgWe...",
  "created_at": "2026-11-04 21:04:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4f7c538d-fdd1-4f7b-bde5-5c746eaf115d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4f7c538d-fdd1-4f7b-bde5-5c746eaf115d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:41:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "句子嵌入",
+    "大语言模型",
+    "无监督学习",
+    "提示工程",
+    "向后依赖"
+   ],
+   "field": "自然语言处理-表示学习",
+   "innovations": [
+    "提出TP技术解决LLM因果注意力下的向后依赖问题",
+    "免训练即插即用可结合多种提示方法"
+   ],
+   "benchmarks": [
+    "STS 2012-2016",
+    "STS-B",
+    "SICK-R",
+    "SentEval"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Towards-Robust-and-Efficient-Federated-Low-Rank-Adaptation-w",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-11-04 21:11:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7a3c98e7-9786-4493-8538-3ccf6f09f62c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7a3c98e7-9786-4493-8538-3ccf6f09f62c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:42:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "联邦学习",
+    "LoRA",
+    "低秩适配",
+    "参数高效微调",
+    "数据异构",
+    "通信效率",
+    "交替冻结",
+    "自适应秩选择"
+   ],
+   "field": "联邦学习与大模型微调",
+   "innovations": [
+    "交替冻结机制：奇偶轮次分别冻结LoRA模块B和A，在解决聚合不兼容的同时保持完整的参数优化空间",
+    "自适应秩选择：基于Frobenius范数重要性评分动态选择top-r重要秩上传，显著降低通信开销",
+    "非对称学习率设计：为B和A模块设置η_B=5η_A的非对称学习率，进一步提升异构环境下的鲁棒性"
+   ],
+   "benchmarks": [
+    "BANKING77",
+    "20 Newsgroups"
+   ]
+  }
+ }
 }

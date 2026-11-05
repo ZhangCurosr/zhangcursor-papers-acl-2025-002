@@ -4,5 +4,31 @@
  "title": "Progressive-Multimodal-Reasoning-via-Active-Retrieval",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-11-04 21:27:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/55cb505f-26e7-4da2-83d3-45b7b8f89acb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/55cb505f-26e7-4da2-83d3-45b7b8f89acb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:41:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态推理",
+    "蒙特卡洛树搜索",
+    "主动检索",
+    "过程奖励模型",
+    "大语言模型",
+    "多模态大语言模型"
+   ],
+   "field": "多模态大模型推理与验证",
+   "innovations": [
+    "将主动检索机制引入 MCTS 扩展阶段以增强多模态推理采样多样性",
+    "通过 MCTS 自动生成逐步推理偏好对并分阶段对齐过程奖励模型",
+    "构建混合模态知识语料库并结合知识概念过滤提升检索相关性"
+   ],
+   "benchmarks": [
+    "MATHVISTA",
+    "WE-MATH",
+    "GAOKAO-MM"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Tree-of-Evolution-Tree-Structured-Instruction-Evolution-for",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-11-04 21:02:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/964bec68-26ca-4867-bd2d-83eba3e32870.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/964bec68-26ca-4867-bd2d-83eba3e32870.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:42:23",
+  "chunks": 1
+ }
 }

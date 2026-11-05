@@ -4,5 +4,29 @@
  "title": "ToolHop-A-Query-Driven-Benchmark-for-Evaluating-Large-Langua",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-11-04 21:03:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/88e38702-1bc0-4a55-b525-af55f6b0cdf3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/88e38702-1bc0-4a55-b525-af55f6b0cdf3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:41:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多跳工具使用",
+    "查询驱动",
+    "大语言模型评测",
+    "函数调用",
+    "工具幻觉",
+    "可验证答案"
+   ],
+   "field": "大语言模型工具使用评估",
+   "innovations": [
+    "提出查询驱动的多跳工具使用数据构建方法，确保工具间有意义依赖与可验证答案",
+    "构建 ToolHop 基准，包含 995 查询与 3,912 可本地执行工具，覆盖 47 领域",
+    "系统性评测 14 个跨五大家族 LLM，揭示不同模型家族在多跳工具使用上的策略差异与局限"
+   ],
+   "benchmarks": [
+    "ToolHop"
+   ]
+  }
+ }
 }
