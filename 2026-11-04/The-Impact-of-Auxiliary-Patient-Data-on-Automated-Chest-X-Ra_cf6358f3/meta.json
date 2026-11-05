@@ -4,5 +4,37 @@
  "title": "The-Impact-of-Auxiliary-Patient-Data-on-Automated-Chest-X-Ra",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-11-04 21:14:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8a05ce4f-2e64-4b14-abdf-7c82bcbca8a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8a05ce4f-2e64-4b14-abdf-7c82bcbca8a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:18:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "chest X-ray report generation",
+    "multimodal language model",
+    "patient data integration",
+    "medical report generation",
+    "EHR data",
+    "CXR",
+    "multimodal embedding"
+   ],
+   "field": "医学影像报告生成",
+   "innovations": [
+    "首次系统验证急诊患者数据对CXR报告生成的增益",
+    "提出异构患者数据嵌入框架（数值/类别/文本/时序统一映射）",
+    "首次评估报告history段价值并引入ARN重复抑制奖励"
+   ],
+   "benchmarks": [
+    "MIMIC-CXR",
+    "MIMIC-IV-ED",
+    "RRG24",
+    "RadGraph-F1",
+    "CheXbert-F1",
+    "CXR-BERT",
+    "GREEN",
+    "BERTScore"
+   ]
+  }
+ }
 }

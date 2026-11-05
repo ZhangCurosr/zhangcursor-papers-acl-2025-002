@@ -4,5 +4,31 @@
  "title": "Yes-My-LoRD-Guiding-Language-Model-Extraction-with-Locality",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-11-04 20:51:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ad07b129-8b96-4fd3-9dee-2df96a600b78.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ad07b129-8b96-4fd3-9dee-2df96a600b78.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:20:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型提取攻击",
+    "大语言模型",
+    "强化学习对齐",
+    "水印抗性",
+    "查询效率"
+   ],
+   "field": "LLM安全与模型保护",
+   "innovations": [
+    "首个对齐LLM训练过程的模型提取算法",
+    "通过对比学习实现水印抗性"
+   ],
+   "benchmarks": [
+    "WMT16",
+    "PIQA",
+    "TruthfulQA",
+    "SafeRLHF",
+    "DiaSafety"
+   ]
+  }
+ }
 }

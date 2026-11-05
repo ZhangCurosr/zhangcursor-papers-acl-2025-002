@@ -4,5 +4,10 @@
  "title": "uMedSum-A-Unified-Framework-for-Clinical-Abstractive-Summari",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-11-04 21:00:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4c918b47-1c5a-403a-8c0f-f53abf010357.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4c918b47-1c5a-403a-8c0f-f53abf010357.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:21:36",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,32 @@
  "title": "The-Hidden-Attention-of-Mamba-Models",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-11-04 21:14:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dcdd28e9-155e-4d64-a61e-37ba5cc488aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dcdd28e9-155e-4d64-a61e-37ba5cc488aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:18:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mamba",
+    "Selective State-Space Model",
+    "Explainable AI",
+    "Hidden Attention",
+    "Vision Mamba",
+    "In-context Learning"
+   ],
+   "field": "可解释 AI / 状态空间模型",
+   "innovations": [
+    "将 S6 层重写成隐式因果线性注意力形式，揭示数据控制非对角混合器",
+    "构建首个 Mamba XAI 工具集（Mamba-Attention-Rollout 与 Mamba-Attribution）",
+    "证明 S6 表达力强于 causal linear attention，并提出 count-in-row 反例法"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "ImageNet-Segmentation",
+    "IMDb",
+    "ARC-Easy"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "RAG-Critic-Leveraging-Automated-Critic-Guided-Agentic-Workfl",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-11-04 21:23:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/52b00288-24c7-4075-8dbd-e17aa922f600.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/52b00288-24c7-4075-8dbd-e17aa922f600.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:17:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "LLM Critic",
+    "Error Diagnosis",
+    "Agentic Workflow",
+    "Preference Optimization",
+    "Error Classification"
+   ],
+   "field": "检索增强生成与LLM评测",
+   "innovations": [
+    "首个数据驱动的分层RAG错误系统（3层/4000+标签）",
+    "粗到细DPO对齐实现轻量级（3B）高精度错误诊断",
+    "Critic-Guided Agentic工作流自动生成可执行纠错程序"
+   ],
+   "benchmarks": [
+    "NQ",
+    "TriviaQA",
+    "HotpotQA",
+    "2Wiki",
+    "ASQA",
+    "WoW",
+    "RAG-Error Benchmark"
+   ]
+  }
+ }
 }

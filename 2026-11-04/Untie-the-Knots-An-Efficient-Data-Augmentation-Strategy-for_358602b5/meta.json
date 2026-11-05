@@ -4,5 +4,31 @@
  "title": "Untie-the-Knots-An-Efficient-Data-Augmentation-Strategy-for",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-11-04 21:17:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/741002f4-b009-4bc5-a856-76fccdacf06a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/741002f4-b009-4bc5-a856-76fccdacf06a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:19:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文预训练",
+    "数据增强",
+    "大语言模型",
+    "位置编码",
+    "RULER",
+    "UtK"
+   ],
+   "field": "长上下文语言模型",
+   "innovations": [
+    "提出 UtK 数据增强策略，通过分块-打乱-回溯任务无需修改数据混合即可提升长上下文能力",
+    "引入结构化 knot token 与 Chunk ID 监督信号，显著改善多跳检索与跨段定位精度",
+    "在 7B/72B 规模 20B tokens 训练下于 RULER 128K 达到 75.0%/84.5%，并保持短上下文性能下降小于 1.5%"
+   ],
+   "benchmarks": [
+    "RULER",
+    "LV-Eval",
+    "InfiniteBench"
+   ]
+  }
+ }
 }

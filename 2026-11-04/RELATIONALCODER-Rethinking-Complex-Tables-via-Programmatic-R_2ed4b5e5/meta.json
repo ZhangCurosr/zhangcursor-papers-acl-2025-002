@@ -4,5 +4,29 @@
  "title": "RELATIONALCODER-Rethinking-Complex-Tables-via-Programmatic-R",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-11-04 21:17:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5421731e-1c51-4f41-b025-7e5a42f0d6c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5421731e-1c51-4f41-b025-7e5a42f0d6c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:18:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "半结构化表格转换",
+    "循环引用解码",
+    "关系型数据",
+    "主动学习标注",
+    "表格问答"
+   ],
+   "field": "表格理解与关系化",
+   "innovations": [
+    "提出 RELATIONALCODER 框架用 SQL 生成规范化关系表避免结构错误",
+    "设计 LRD 技术通过循环引用实现输出长度 O(K) 压缩",
+    "构建 850 样本标注集并提出 SFT-AP 主动标注流程"
+   ],
+   "benchmarks": [
+    "HiTab",
+    "MULTIHIERTT"
+   ]
+  }
+ }
 }
