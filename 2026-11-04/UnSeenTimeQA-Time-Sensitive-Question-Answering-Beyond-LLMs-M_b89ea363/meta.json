@@ -4,5 +4,35 @@
  "title": "UnSeenTimeQA-Time-Sensitive-Question-Answering-Beyond-LLMs-M",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-11-04 20:56:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2b084d8b-0696-42d5-8833-4762f610fce0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2b084d8b-0696-42d5-8833-4762f610fce0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:11:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Time-Sensitive Question Answering",
+    "Temporal Reasoning",
+    "Data Contamination",
+    "Benchmark",
+    "Large Language Models",
+    "Synthetic Data",
+    "Parallel Events"
+   ],
+   "field": "时序推理与评测基准",
+   "innovations": [
+    "提出基于合成物流场景的无数据污染TSQA基准UnSeenTimeQA",
+    "首次系统性引入并行事件推理评测并揭示LLM在此任务上的显著缺陷"
+   ],
+   "benchmarks": [
+    "UnSeenTimeQA",
+    "TimeQA",
+    "TempReason",
+    "MenatQA",
+    "RealTimeQA",
+    "FreshQA",
+    "TAQA"
+   ]
+  }
+ }
 }
